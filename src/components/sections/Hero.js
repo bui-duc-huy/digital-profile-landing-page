@@ -65,7 +65,7 @@ const Hero = ({
             </h1>
             <div className="container-xs">
               <p className="m-0 mb-32 reveal-from-bottom" data-reveal-delay="400">
-                <span className="text-color-primary">D-Profile</span> is leading platfrom for decentralized identity and ensure interop between all participants.
+                <span className="text-color-primary">DIS</span> is leading platfrom for decentralized identity and ensure interop between all participants.
                 </p>
               <div className="reveal-from-bottom" data-reveal-delay="600">
                 <ButtonGroup>

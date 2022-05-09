@@ -50,8 +50,7 @@ const FeaturesSplit = ({
   );
 
   const sectionHeader = {
-    title: 'Workflow that just works',
-    paragraph: 'Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum — semper quis lectus nulla at volutpat diam ut venenatis.'
+    title: 'Features',
   };
 
   return (
@@ -67,14 +66,14 @@ const FeaturesSplit = ({
             <div className="split-item">
               <div className="split-item-content center-content-mobile reveal-from-left" data-reveal-container=".split-item">
                 <div className="text-xxs text-color-primary fw-600 tt-u mb-8">
-                  Lightning fast workflow
+                  Trustworthy
                   </div>
                 <h3 className="mt-0 mb-12">
-                  Data-driven insights
+                  Base on Blockchain technology
                   </h3>
                 <p className="m-0">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua — Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                  </p>
+                  Blockchain technology uses a consensus approach to prove the data authenticity through various nodes and acts as the source of trust to verify user identity.
+                </p>
               </div>
               <div className={
                 classNames(
@@ -83,23 +82,23 @@ const FeaturesSplit = ({
                 )}
                 data-reveal-container=".split-item">
                 <Image
-                  src={require('./../../assets/images/features-split-image-01.png')}
+                  src="https://innotech-vn.com/wp-content/uploads/2020/08/reliable-blockchain-app-development-1.jpg"
                   alt="Features split 01"
-                  width={528}
-                  height={396} />
+                  width={428}
+                  height={296} />
               </div>
             </div>
 
             <div className="split-item">
               <div className="split-item-content center-content-mobile reveal-from-right" data-reveal-container=".split-item">
                 <div className="text-xxs text-color-primary fw-600 tt-u mb-8">
-                  Lightning fast workflow
+                Data Integrity
                   </div>
                 <h3 className="mt-0 mb-12">
-                  Data-driven insights
+                  Immutable and permanent
                   </h3>
                 <p className="m-0">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua — Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                The blockchain-based data storage mechanism is immutable and permanent, and hence, modification and deletion are not possible. Our systems use this mechanism so that no external entity can tamper or modify the data
                   </p>
               </div>
               <div className={
@@ -109,7 +108,7 @@ const FeaturesSplit = ({
                 )}
                 data-reveal-container=".split-item">
                 <Image
-                  src={require('./../../assets/images/features-split-image-02.png')}
+                  src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTuWWh0vvYpdkrA6g3Ct5a_BrB_jLGqoiZNKA&usqp=CAU"
                   alt="Features split 02"
                   width={528}
                   height={396} />
@@ -119,13 +118,13 @@ const FeaturesSplit = ({
             <div className="split-item">
               <div className="split-item-content center-content-mobile reveal-from-left" data-reveal-container=".split-item">
                 <div className="text-xxs text-color-primary fw-600 tt-u mb-8">
-                  Lightning fast workflow
+                  Privacy
                   </div>
                 <h3 className="mt-0 mb-12">
-                  Data-driven insights
+                  Secure Your Identity
                   </h3>
                 <p className="m-0">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua — Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                Our systems leveraging blockchain with a pseudo-anonymous identifier (decentralized identifier) can help mitigate the privacy concerns among the identity owners. 
                   </p>
               </div>
               <div className={
@@ -135,7 +134,7 @@ const FeaturesSplit = ({
                 )}
                 data-reveal-container=".split-item">
                 <Image
-                  src={require('./../../assets/images/features-split-image-03.png')}
+                  src="https://blogs.adb.org/sites/blogs/files/hacking-3112539_1280.png"
                   alt="Features split 03"
                   width={528}
                   height={396} />
